@@ -30,4 +30,5 @@ public:
     void insertNodeBeginning(int);
     void printList();
     void deleteNode(int);
+    void inserNodeAtNth(int, int);
 };

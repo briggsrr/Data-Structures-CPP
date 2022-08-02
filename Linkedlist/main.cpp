@@ -5,7 +5,9 @@ using namespace std;
 int main() 
 {
     Linkedlist test;
-    test.insertNodeBeginning(10);
-    test.insertNodeBeginning(12);
+    test.inserNodeAtNth(2,1);
+    test.inserNodeAtNth(3,2);
+    test.inserNodeAtNth(4,1);
+    test.inserNodeAtNth(5,2);
     test.printList();
 }
